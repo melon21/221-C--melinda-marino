@@ -1,0 +1,6 @@
+C:\Users\Melon\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\ManyMethods.csprojAssemblyReference.cache
+C:\Users\Melon\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\ManyMethods.exe.config
+C:\Users\Melon\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\ManyMethods.exe
+C:\Users\Melon\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\bin\Debug\ManyMethods.pdb
+C:\Users\Melon\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\ManyMethods.exe
+C:\Users\Melon\Desktop\C-Sharp-Programs\ManyMethods\ManyMethods\obj\Debug\ManyMethods.pdb
