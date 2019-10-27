@@ -12,9 +12,9 @@ namespace ManyMethods
         {
             Hello();
             addition();
-            catDog();
+            CatDog();
             OddEvent();
-            inches();
+            Inches();
         }
         public static void Hello()
         {
@@ -37,27 +37,43 @@ namespace ManyMethods
             Console.ReadKey();
 
         }
-        static void catDog()
+        static void CatDog()
         {
-            Console.WriteLine("do you prefer cats or dogs?");
-            int cat();
-            int dog();
-            if cat(
-            Console.WriteLine("Do cats bark or meow?"));
-            if dog(
-            Console.WriteLine("Do dogs bark or meow?"));
+            Console.WriteLine("Do you prefer cats or dogs?");
+            string pet = Console.ReadLine();
+            string cat = "cat";
+            string dog = "dog";
 
+            if (cat == pet)
+            {
+                Console.WriteLine("Meow");
+            }
+            if (dog == pet)
+            {
+                Console.WriteLine("Bark");
+            }
         }
 
-        private static bool dog()
+        static void OddEvent()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Give me a number.");
+            string number = Console.ReadLine();
+            int x = int.Parse(number);
+            if (x % 2 == 0)
+            {
+                Console.WriteLine("Even");
+            }
+            else
+            {
+                Console.WriteLine("Odd");
+            }
         }
+    }
+    static void Inches()
+    {
+      Console.WriteLine("How tall are you in feet?");
+        string tall = Console.ReadLine();
 
-        static void OddEvent();
-        {
-            
-        }
-        static void Inches();
+       
     }
 }
