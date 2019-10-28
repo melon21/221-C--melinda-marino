@@ -11,10 +11,15 @@ namespace ManyMethods
         static void Main(string[] args)
         {
             Hello();
-            addition();
+            Addition();
             CatDog();
             OddEvent();
             Inches();
+            Echo();
+            KillGrams();
+            DateTime();
+            Age();
+            Guess();
         }
         public static void Hello()
         {
@@ -24,7 +29,7 @@ namespace ManyMethods
             Console.WriteLine("Hello, " + responce);
 
         }
-        static void addition()
+        static void Addition()
         {
             Console.WriteLine("Give me a number");
             string oneint = Console.ReadLine();
@@ -73,7 +78,30 @@ namespace ManyMethods
     {
       Console.WriteLine("How tall are you in feet?");
         string tall = Console.ReadLine();
+        string feet = "feet";
+        string inch = "inch";
+
 
        
+    }
+    static void Echo()
+    {
+
+    }
+    static void KillGrams()
+    {
+
+    }
+    static void Date()
+    {
+
+    }
+    static void Age()
+    {
+
+    }
+    static void Guess()
+    {
+
     }
 }
