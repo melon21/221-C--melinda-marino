@@ -76,32 +76,68 @@ namespace ManyMethods
     }
     static void Inches()
     {
-      Console.WriteLine("How tall are you in feet?");
-        string tall = Console.ReadLine();
-        string feet = "feet";
-        string inch = "inch";
+        Console.WriteLine("Give me a number");
+        Console.ReadLine();
+        int inches = 67;
 
+        totalFeet(inches);
 
-       
+        Console.ReadLine();
+        int total;
+
+        feet = inches / 12;
+
+        inchesTotal = feet
+        Console.WriteLine("{0} Feet and {1} Inches", feet, inchesTotal);
     }
     static void Echo()
     {
+        using System;
 
+
+    public class Echo
+    {
+        string myString;
+
+        public Echo(string aString)
+        {
+            myString = aString;
+        }
+
+        public void Tell()
+        {
+            Console.WriteLine(myString);
+        }
     }
+
+    public class Hello
+    {
+        public static void Main()
+        {
+            Echo h = new Echo("Hello my 1st C# object !");
+            h.Tell();
+        }
+    }
+
+}
     static void KillGrams()
     {
-
+        Console.WriteLine("Give me a number if a weight in pounds");
+        Console.ReadLine();
     }
     static void Date()
     {
-
+        Console.WriteLine("Today's date is (0).");
+        Console.ReadLine();
     }
     static void Age()
     {
-
+        Console.WriteLine("What year were you born?");
+        Console.ReadLine();
     }
     static void Guess()
     {
-
+        Console.WriteLine("Guess a word");
+        Console.ReadLine();
     }
 }
