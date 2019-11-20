@@ -11,26 +11,40 @@ namespace Towers_Of_Hanoi
         static void Main(string[] args)
         {
             Console.WriteLine("This is the Towers Of Hanoi");
-            int[] num = { '1', '2', '3', '4' };
+            int[] num = { 1, 2, 3, 4 };
             char[] letter = { 'A', 'B', 'C', 'D' };
 
-            foreach (char i in letter)
+            Dictionary<string, Stack<int>> pegs = new Dictionary<string, Stack<int>>();
+            Stack<int> stack = new Stack<int>();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+
+            pegs.Add("A", stack);
+            pegs.Add("B", new Stack<int>());
+            pegs.Add("C", new Stack<int>());
+            pegs.Add("D", new Stack<int>());
+
+
+            foreach (var name in pegs)
             {
-                Console.WriteLine(i);
+                Console.Write(name.Key + ":");
+                foreach (int value in name.Value)
+                {
+                    Console.Write(value.ToString());
+                }
+                Console.WriteLine();
             }
-            foreach (char i in num)
+                Console.ReadKey();
+
+            if(num)
             {
-                Console.WriteLine(num);
+
             }
-          //  {
-            //    List<int> A = new List<int>(num);
-              //  List<int> B = new List<int>(num);
-                //List<int> C = new List<int>(num);
-               // for (int i = num; i > 0; i--) ;
-                // Console.WriteLine("A: "(tiles);
-                // Console.WriteLine("B: "(0));
-                //Console.WriteLine(C: (0));
-                // Console.ReadLine();
-            }
+
+
+
         }
     }
+}
