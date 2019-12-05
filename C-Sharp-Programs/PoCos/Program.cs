@@ -39,10 +39,10 @@ namespace PoCos
     }
     class Book
     {
-        public Book(string title, string author, int pages, int sku, string publisher, int price)
+        public Book(string title, string authors, int pages, int sku, string publisher, string price)
         {
             Title = title;
-            Author = author;
+            Authors = authors;
             Pages = pages;
             SKU = sku;
             Publisher = publisher;
@@ -50,11 +50,11 @@ namespace PoCos
 
         }
         public string Title { get; set; }
-        public string Author { get; set; }
+        public string Authors { get; set; }
         public int Pages { get; set; }
         public int SKU { get; set; }
         public string Publisher { get; set; }
-        public int Price { get; set; }
+        public string Price { get; set; }
 
     }
     class Airplane
