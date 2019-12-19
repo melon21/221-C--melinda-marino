@@ -42,7 +42,7 @@ namespace Inventory
 
         public string GetDescription()
         {
-            throw new NotImplementedException();
+            return "Expinsive Boat";
         }
     }
 
@@ -60,7 +60,7 @@ namespace Inventory
 
         public string GetDescription()
         {
-            throw new NotImplementedException();
+          return "Large House";
         }
     }
     public class Car : IRentable
@@ -77,7 +77,7 @@ namespace Inventory
 
         public string GetDescription()
         {
-            throw new NotImplementedException();
+            return "4 door car";
         }
     }
     class Program
