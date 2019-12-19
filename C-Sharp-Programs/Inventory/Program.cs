@@ -92,6 +92,7 @@ namespace Inventory
             {             
                 Console.WriteLine($"{item.GetDescription()} {item.GetDailyRate()}"); 
             }
+            Console.ReadLine();
         }
     }
 }
