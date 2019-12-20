@@ -27,11 +27,11 @@ namespace ToDoApp
         }
         public List<ToDoItem> GetDoneItems()
         {
-            return db.Items.Where(Item => Item.IsDone).ToList()
+            return db.Items.Where(Item => Item.IsDone).ToList();
         }
         public List<ToDoItem> GetPendingItems()
         {
-            return db.Items.Where(Item => Item.IsPending).ToList()
+            return db.Items.Where(Item => Item.IsPending).ToList();
         }
         public void Delete(int Id)
         {
@@ -40,10 +40,10 @@ namespace ToDoApp
             db.SaveChanges();
           
         }
-        public void Update(ToDoItem Item)
+        public void MarkAsDone(int Item)
         {
-            ToDoItem Existing = db.Items.Find(Item.Id);
-            db.Entry(Existing).CurrentValues.SetValues(Item);
+            ToDoItem Existing = db.Items.Find(Item);
+            Existing.IsDone = true;
             db.Update(Existing);
             db.SaveChanges();
         }

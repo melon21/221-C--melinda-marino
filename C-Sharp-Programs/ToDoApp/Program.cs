@@ -10,6 +10,7 @@ namespace ToDoApp
     {
         static void Main(string[] args)
         {
+            app.Run();
         }
     }
 }

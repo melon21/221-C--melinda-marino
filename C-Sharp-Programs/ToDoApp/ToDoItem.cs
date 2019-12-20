@@ -9,7 +9,7 @@ namespace ToDoApp
     class ToDoItem
     {
         public int Id { get; private set; }
-        public string Discription { get; set; }
+        public string Description { get; set; }
         public bool IsDone { get; set; }
         public bool IsPending { get; set; }
        

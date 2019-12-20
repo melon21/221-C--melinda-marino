@@ -151,6 +151,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app.cs" />
+    <Compile Include="ConsoleUtils.cs" />
     <Compile Include="ItemContex.cs" />
     <Compile Include="ItemRepository.cs" />
     <Compile Include="Program.cs" />
