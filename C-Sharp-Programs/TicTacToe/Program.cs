@@ -49,11 +49,11 @@ namespace TicTacToe
 
             if(X == "win")
             {
-                return Console.WriteLine("You have won!!!!");
+                 Console.WriteLine("You have won!!!!");
             }
             if (O == "win")
             {
-                return Console.WriteLine("You have won!!!!");
+                Console.WriteLine("You have won!!!!");
             }
 
 
